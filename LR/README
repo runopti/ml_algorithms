@@ -1,0 +1,7 @@
+Least Squared Linear Regression in a TensorFlow style. 
+
+Input: X = n by p matrix (p > n) and y = n dim vector
+
+Output: w s.t. argmin || Xw - y ||_2^2  
+
+
