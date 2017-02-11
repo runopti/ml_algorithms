@@ -28,7 +28,6 @@ def main():
         n_epoch = 10
         batch_size = config.batch_size
         trainX, trainy = data_load(n,p)
-        #config = {input_dim:n, feature_dim:p, batch_size:batch_size}
 
         model = LR(config)
         tf.get_default_graph().finalize()
