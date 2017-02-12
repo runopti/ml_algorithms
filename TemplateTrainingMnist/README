@@ -1,0 +1,7 @@
+# Template scripts for training mnist. 
+
+A regular MLP model is in models/mlp.py, where a class MLP() is defined, in which the network construction, weights intialization, session/saver initiation is done. 
+
+train.py will load the model and train it on mnist. 
+
+evaluate.py is for model evaluation. 
