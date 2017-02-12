@@ -30,7 +30,6 @@ def main():
             for t in range(n_batch_loop):
                 # batch_X: batch_size x n_input
                 # batch_y: batch_size
-                # batch_X, batch_y = get_minibatch(batch_size, images, labels)
                 batch_X, batch_y = mnist.train.next_batch(config.batch_size)
                 cost_per_sample = model.forward_backprop(batch_X, batch_y)
                 sum_cost += cost_per_sample
